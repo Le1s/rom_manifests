@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    This manifest is for AOSPA 7.1.3 for LeEco Le 1s 
+    It removes the android_vendor_pa package and replace it with a modified one
+    present at github.com/le1s/android_vendor_pa
+    This replacement is dont to include the x3 dependencies needed to build PA.
+
+    Alternativly, you can just cherry-pick this commit:
+    5a1199cf32156ad44f47747fcd8ccff149bc0d1f
+    from https://github.com/Le1s/android_vendor_pa -b nougat-mr2
+    and apply it on vendor/pa to include the files.
+
+-->
+<manifest>
+
+  <remove-project name="AOSPA/android_vendor_pa" />
+  <project name="le1s/android_vendor_pa" path="vendor/pa" remote="github" revision="nougat-mr2" />
+
+</manifest>
