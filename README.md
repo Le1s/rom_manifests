@@ -29,6 +29,7 @@ No.| ROM            | ROM Version |Android Version | Branch    | Local Branch | 
 1  | LineageOS      | 14.1        | 7.1.2          | cm-14.1   | cm-14.1      | x3_lineage_nougat.xml
 2  | Dirty Unicorns | 11.5        | 7.1.2          | n7x       | n7x          | x3_du_nougat.xml
 3  | AOSPA          | 7.1.3       | 7.1.2          | mougat-mr2| nougat-pa    | x3_AOSPA_nougat.xml
+3  | Carbon         | 5.1         | 7.1.2          | cr-5.1    | cr-5.1       | x3_carbon_nougat.xml
 4  | LineageOS      | 13.0        | 6.0.1          | cm-13.0   | cm-13.0      | x3_lineage_mm.xml
 
 
@@ -72,6 +73,6 @@ trees in one way or the other. All this would not have been possible without the
 
 ---
 
-If you have any question(s) open an issue, or contact me on telegram @SscSPs
+If you have any question(s) open an issue, or contact me on telegram @FearTheBatman
 
 ---
