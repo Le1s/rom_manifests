@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-    This manifest is for Carbon 5.1 for LeEco Le 1s
+	This manifest is for Carbon 5.1 for LeEco Le 1s
+
+	WARNING: This doesn't work yet
 -->
 <manifest>
-  <remote name="github" fetch="git://github.com/" sync-c="true" sync-j="8" />
-  <project name="sscsps/android_device_leeco_x3" path="device/leeco/x3" remote="github" revision="cr-5.1" />
-  <project name="sscsps/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="master" />
-  <project name="sscsps/android_kernel_leeco_x3" path="kernel/leeco/x3" remote="github" revision="master" />
+	<remote name="github" fetch="git://github.com/" sync-c="true" sync-j="8" />
+	<project name="sscsps/android_device_leeco_x3" path="device/leeco/x3" remote="github" revision="cr-5.1" />
+	<project name="sscsps/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="master" />
+	<project name="sscsps/android_kernel_leeco_x3" path="kernel/leeco/x3" remote="github" revision="master" />
 </manifest>

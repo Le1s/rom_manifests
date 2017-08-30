@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-
-    This manifest is for LineageOS 13.0 for LeEco Le 1s
-    this is not currently tested. you can try to build this if you want to and report if it works :)
+	This manifest is for LineageOS 13.0 for LeEco Le 1s
+	
+	WARNING: This is not currently tested. you can try to build this if you want to and report if it works :)
 -->
 <manifest>
+	<project name="sscsps/android_device_leeco_x3" path="device/leeco/x3" remote="github" revision="cm-13.0" />
+	<project name="sscsps/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="master" />
 
-  <project name="sscsps/android_device_leeco_x3" path="device/leeco/x3" remote="github" revision="cm-13.0" />
-  <project name="sscsps/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="master" />
+	<!--We are currently using prebuilt kernel.
+	Untill we get a propper and stable kernel tree, we should not use it.
+	If you want to build using kernel source, uncomment the next line-->
 
-  <!--We are currently using prebuilt kernel.
-  Untill we get a propper and stable kernel tree, we should not use it.
-  If you want to build using kernel source, uncomment the next line-->
-
-  <!--project name="sscsps/android_kernel_leeco_x3" path="kernel/leeco/x3" remote="github" revision="master" /-->
-
+	<!--project name="sscsps/android_kernel_leeco_x3" path="kernel/leeco/x3" remote="github" revision="master" /-->
 </manifest>
