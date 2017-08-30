@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	This manifest is for AOSP 8.0.0_r4(havent tested it on newer versions yet) for LeEco Le 1s
+	
+	WARNINGL: This doesnt boot yet.
+-->
+<manifest>
+	<remote name="github" fetch="git://github.com/" sync-c="true" sync-j="8" />
+	<project name="sscsps/android_device_leeco_x3" path="device/leeco/x3" remote="github" revision="aosp-o" />
+	<project name="sscsps/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="master" />
+	<project name="sscsps/android_kernel_leeco_x3" path="kernel/leeco/x3" remote="github" revision="android-o" />
+</manifest>

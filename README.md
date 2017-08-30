@@ -31,6 +31,8 @@ No.| ROM            | ROM Version |Android Version | Branch    | Local Branch | 
 3  | AOSPA          | 7.1.3       | 7.1.2          | mougat-mr2| nougat-pa    | x3_AOSPA_nougat.xml
 3  | Carbon         | 5.1         | 7.1.2          | cr-5.1    | cr-5.1       | x3_carbon_nougat.xml
 4  | LineageOS      | 13.0        | 6.0.1          | cm-13.0   | cm-13.0      | x3_lineage_mm.xml
+6  | AOSP           | 7.1.2       | 7.1.2          | android-7 | aosp-n       | x3_AOSP_nougat.xml
+7  | AOSP           | 8.0.0       | 8.0.0          | andorid-8 | aosp-o       | x3_AOSP_oreo.xml
 
 
 More might come.
