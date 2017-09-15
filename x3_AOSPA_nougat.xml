@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-	This manifest is for AOSPA 7.1.3 for LeEco Le 1s 
+	This manifest is for AOSPA 7.1.3 for LeEco Le 1s
 	It removes the android_vendor_pa package and replace it with a modified one
 	present at github.com/le1s/android_vendor_pa
 	This replacement is done to include the x3 dependencies needed to build PA.
