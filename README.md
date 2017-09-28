@@ -46,7 +46,7 @@ Unless you know what you are doing, You'd need to follow these simple steps in o
 * init the repo of whichever rom you want to build.
 * Download(wget)/copy that ROM's manifest in the ".repo/local_manifests"(might need to mkdir first) of your work directory from this repo, like:
 	$ cd .repo/local_manifests
-	$ wget https://github.com/SscSPs/android_device_leeco_x3/raw/master/x3_lineage_nougat.xml
+	$ wget https://github.com/le1s/android_device_leeco_x3/raw/master/x3_lineage_nougat.xml
   for LineageOS 14.1
 * Do the "repo sync" to get files
 
@@ -66,7 +66,7 @@ This will build the rom and the generated zip will be in out/target/product/x3 d
 I would like to Thank the following people, they have helped in making one or more of these
 trees in one way or the other. All this would not have been possible without them.
 
-* SscSPs (Me!)
+* SscSPs
 * WisniaPL
 * DeckerSU
 * M.A.D
@@ -74,9 +74,9 @@ trees in one way or the other. All this would not have been possible without the
 * Danielhk
 * PokeTrainerRed
 * DarkAbhi
-
+ And more!
 ---
 
-If you have any question(s) open an issue, or contact me on telegram @FearTheBatman
+If you have any questions open an issue or Join us on telegram @LeEcoUnofficial
 
 ---

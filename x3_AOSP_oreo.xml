@@ -6,7 +6,7 @@
 -->
 <manifest>
 	<remote name="github" fetch="git://github.com/" sync-c="true" sync-j="8" />
-	<project name="sscsps/android_device_leeco_x3" path="device/leeco/x3" remote="github" revision="aosp-o" />
-	<project name="sscsps/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="master" />
-	<project name="sscsps/android_kernel_leeco_x3" path="kernel/leeco/x3" remote="github" revision="android-8.0" />
+	<project name="le1s/android_device_leeco_x3" path="device/leeco/x3" remote="github" revision="aosp-o" />
+	<project name="le1s/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="master" />
+	<project name="le1s/android_kernel_leeco_x3" path="kernel/leeco/x3" remote="github" revision="android-8.0" />
 </manifest>
