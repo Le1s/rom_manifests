@@ -5,8 +5,8 @@
 	WARNINGL: This doesnt boot yet.
 -->
 <manifest>
-	<remote name="github" fetch="git://github.com/" sync-c="true" sync-j="8" />
-	<project name="le1s/android_device_leeco_x3" path="device/leeco/x3" remote="github" revision="aosp-o" />
-	<project name="le1s/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="master" />
-	<project name="le1s/android_kernel_leeco_x3" path="kernel/leeco/x3" remote="github" revision="android-8.0" />
+	<remote name="githubCustom" fetch="https://www.github.com" sync-c="true" sync-j="8" />
+	<project name="le1s/android_device_leeco_x3" path="device/leeco/x3" remote="githubCustom" revision="aosp-o" />
+	<project name="le1s/proprietary_vendor_leeco" path="vendor/leeco" remote="githubCustom" revision="master" />
+	<project name="le1s/android_kernel_leeco_x3" path="kernel/leeco/x3" remote="githubCustom" revision="android-8.0" />
 </manifest>

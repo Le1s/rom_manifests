@@ -6,7 +6,7 @@
 	This replacement is done to include the x3 dependencies needed to build PA.
 
 	Alternativly, you can just cherry-pick this commit:
-	5a1199cf32156ad44f47747fcd8ccff149bc0d1f
+	7bb83b4d4655f9f9d6c5d6b6005ce009872cde72
 	from https://github.com/Le1s/android_vendor_pa -b nougat-mr2
 	and apply it on vendor/pa to include the files.
 
@@ -14,5 +14,6 @@
 -->
 <manifest>
 	<remove-project name="AOSPA/android_vendor_pa" />
-	<project name="le1s/android_vendor_pa" path="vendor/pa" remote="github" revision="nougat-mr2" />
+	<remote name="githubCustom" fetch="https://www.github.com" sync-c="true" sync-j="8" />
+	<project name="le1s/android_vendor_pa" path="vendor/pa" remote="githubCustom" revision="nougat-mr2" />
 </manifest>
