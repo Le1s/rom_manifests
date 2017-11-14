@@ -1,6 +1,10 @@
 # LeEco Le 1s (x3) Device trees
 
-Hello everyone, this repo contains a few variations of device tree to build different custom ROMs.
+Hello everyone, this repo contains manifest files that you can use to build a few different custom ROMs for LeEco Le 1s.
+
+# Device Tree
+
+The device trees are located in a separate repo at [ Le1s/android_device_leeco_x3 ](https://www.github.com/le1s/android_device_leeco_x3)
 
 # About Device
 
@@ -22,7 +26,7 @@ Camera  | Primary: 13 MP, Secondary: 5 MP
 ---
 
 # Branches
-Currently, this repo have branches for device trees for following ROMs:
+Currently, we have for device trees for following ROMs:
 
 No. | ROM Name		| ROM Ver.  | Android Ver.	| ROM Branch	| Local Branch | Manifest											| Working  |
 ---:|:--------------|:----------|:--------------|:--------------|:-------------|:---------------------------------------------------|:--------:|
@@ -49,8 +53,7 @@ Unless you know what you are doing, You'd need to follow these simple steps in o
 * init the repo of whichever rom you want to build.
 * Download(wget)/copy that ROM's manifest in the ".repo/local_manifests"(might need to mkdir first) of your work directory from this repo, like:
 * $ cd .repo/local_manifests
-* $ wget https://github.com/le1s/android_device_leeco_x3/raw/master/x3_lineage_nougat.xml
- (for LineageOS 14.1)
+* $ wget https://github.com/le1s/rom_manifests/raw/master/x3_lineage_nougat.xml #(for LineageOS 14.1)
 * Do the "repo sync" to get files
 
 That's it for getting the source.
