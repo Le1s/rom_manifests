@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 	This manifest is for Carbon 5.1 for LeEco Le 1s
-
-	WARNING: This doesn't work yet
 -->
 <manifest>
 	<remote name="githubCustom" fetch="https://www.github.com" sync-c="true" sync-j="8" />
